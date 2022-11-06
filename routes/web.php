@@ -36,4 +36,5 @@ function getProducts(){
 $products = [];
 $product[] = array("id"=>1, "name"=>"Classic Jam", "price"=>5.99);
 $products[] = array("id"=>2, "name"=>"Rock", "price"=>3.99);
+return $products;
 }
